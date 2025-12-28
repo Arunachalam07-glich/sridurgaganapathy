@@ -755,3 +755,99 @@ a:active {
   width: 140px;
   font-size: 13px;
 }
+/* ================= MOBILE RESPONSIVE FIX ================= */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .nav-right {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 30px 20px;
+    margin: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  /* Logo */
+  .brand-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Cards */
+  .cards {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .image-box img {
+    height: 200px;
+  }
+
+  /* Premium Section */
+  .premium-section {
+    padding: 50px 20px;
+  }
+
+  .premium-title {
+    font-size: 24px;
+  }
+
+  .premium-cards {
+    gap: 25px;
+  }
+
+  .premium-card {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .premium-card img {
+    height: 220px;
+  }
+
+  /* Cart panel */
+  .cart-panel {
+    width: 100%;
+    right: -100%;
+  }
+
+  .cart-panel.open {
+    right: 0;
+  }
+
+  /* Contact section */
+  .contact-section {
+    margin: 40px 15px;
+    padding: 25px 15px;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+}
